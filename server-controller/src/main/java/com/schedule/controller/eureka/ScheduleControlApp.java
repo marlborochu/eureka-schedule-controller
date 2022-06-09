@@ -3,6 +3,7 @@ package com.schedule.controller.eureka;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
  *
@@ -10,6 +11,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
  */
 @SpringBootApplication(scanBasePackages = { "com.schedule.controller.eureka" })
 @EnableEurekaServer
+@EnableScheduling
 public class ScheduleControlApp {
 	
 	public static void main(String[] args) {
