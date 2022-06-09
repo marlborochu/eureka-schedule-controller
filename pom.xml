@@ -46,6 +46,7 @@
 	</dependencies>
 	<modules>
 		<module>server-controller</module>
+		<module>sample-primary-server</module>
 	</modules>
 	
 </project>
