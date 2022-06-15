@@ -11,6 +11,10 @@ import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.support.PropertiesLoaderUtils;
 
+/**
+*
+* @author marlboro.chu@gmail.com
+*/
 public class ScheduleControlPostProcessor implements EnvironmentPostProcessor {
 
 	@Override

@@ -11,7 +11,6 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  */
 @SpringBootApplication(scanBasePackages = { "com.schedule.controller.eureka" })
 @EnableEurekaServer
-@EnableScheduling
 public class ScheduleControlApp {
 	
 	public static void main(String[] args) {
