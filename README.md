@@ -93,4 +93,7 @@ When more than two identical API Servers are started and both are registered wit
 
 <img width="592" alt="Capture" src="https://user-images.githubusercontent.com/24667449/173987794-cf8028df-499d-42b0-968f-b3a623a117b2.PNG">
 
+### For more information, please refer to the sample project
+
+[sample-eureka-schedule-controller](https://github.com/marlborochu/sample-eureka-schedule-controller)
 
