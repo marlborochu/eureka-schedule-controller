@@ -46,8 +46,6 @@
 	</dependencies>
 	<modules>
 		<module>server-controller</module>
-		<module>sample-primary-server</module>
-		<module>sample-job-server</module>
 		<module>job-controller</module>
 	</modules>
 	
