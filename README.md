@@ -1,6 +1,10 @@
-## eureka-schedule-controller
+## Schedule Controller
 
-Use Eureka Server as scheduling controller
+Use the existing functions of Eureka Server to implement a timing schedule controller that regularly calls remote services.
+
+The HA (High Availability) architecture of the control system is designed in A/S (Active/Standby) mode and has automatic failover and automatic failback functions.
+
+When there are multiple identical servers registered to the controller, the controller will call the API provided by the server in round-robin.
 
 ### Sample
 <sub>Starting Primary Server</sub>
