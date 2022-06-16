@@ -6,14 +6,21 @@ The HA (High Availability) architecture of the control system is designed in A/S
 
 When there are multiple identical servers registered to the controller, the controller will call the API provided by the server in round-robin.
 
-### Sample
-<sub>Starting Primary Server</sub>
+### Controller Configuration
+Creating a web application with Spring Boot.
+<sub>Add "server-controller" to dependencies in pom.xml </sub>
 ```
-java -jar target\sample-primary-server-1.0.1.jar 
+<dependency>
+			<groupId>com.schedule.controller</groupId>
+			<artifactId>server-controller</artifactId>
+			<version>1.0.1</version>
+</dependency>
 ```
-<sub>Starting Secondary Server</sub>
+<sub>Add start-class in pom.xml</sub>
 ```
-java -jar target\sample-primary-server-1.0.1.jar --server.port=9002 --schedule.controller.server.type=S
+<properties>
+		<start-class>com.schedule.controller.eureka.ScheduleControlApp</start-class>
+</properties>
 ```
 
 ### Failover
