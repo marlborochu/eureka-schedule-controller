@@ -8,8 +8,8 @@ public class JobInfo {
 
 	private String jobId;
 	private String logId;
-	private String applicationId;
-	private String contextPath;
+	private String applicationName;
+	private String applicationPath;
 	private String beginDateTime;
 	private String endDateTime;
 	private String limitBeginTime;
@@ -44,23 +44,22 @@ public class JobInfo {
 		this.jobId = jobId;
 	}
 
-	public String getApplicationId() {
-		return applicationId;
+	public String getApplicationName() {
+		return applicationName;
 	}
 
-	public void setApplicationId(String applicationId) {
-		this.applicationId = applicationId;
-	}
-
-	public String getContextPath() {
-		return contextPath;
-	}
-
-	public void setContextPath(String contextPath) {
-		this.contextPath = contextPath;
+	public void setApplicationName(String applicationName) {
+		this.applicationName = applicationName;
 	}
 
 	
+	public String getApplicationPath() {
+		return applicationPath;
+	}
+
+	public void setApplicationPath(String applicationPath) {
+		this.applicationPath = applicationPath;
+	}
 
 	public String getBeginDateTime() {
 		return beginDateTime;

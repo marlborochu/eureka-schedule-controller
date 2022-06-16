@@ -46,7 +46,7 @@
 	</dependencies>
 	<modules>
 		<module>server-controller</module>
-		<module>sample-primary-server</module>
+		<module>job-controller</module>
 	</modules>
 	
 </project>

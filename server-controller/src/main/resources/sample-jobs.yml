@@ -1,0 +1,5 @@
+jobs:
+ - jobId: "0001"
+   applicationName: SAMPLE-JOB
+   applicationPath: /job-controller/SAMPLE0001
+   cronExpression: "*/15 * * * * *"

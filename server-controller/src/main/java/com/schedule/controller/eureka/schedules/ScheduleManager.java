@@ -1,5 +1,7 @@
 package com.schedule.controller.eureka.schedules;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 //import org.slf4j.Logger;
 //import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
@@ -16,7 +18,7 @@ import com.schedule.controller.eureka.Constant;
 public abstract class ScheduleManager {
 	
 	
-//	private static final Logger logger = LoggerFactory.getLogger(ScheduleManager.class);
+	private static final Logger logger = LoggerFactory.getLogger(ScheduleManager.class);
 
 	
 	private Boolean hasPrimaryAgent = false;
@@ -29,6 +31,7 @@ public abstract class ScheduleManager {
 	public Boolean isProcessor() {
 		
 		Boolean isPrimaryServer = false;
+		
 		if (!serverType.equals("P")) {
 			if (serverType.equals("S")) {
 								
@@ -47,7 +50,7 @@ public abstract class ScheduleManager {
 		} else {
 			isPrimaryServer = true;
 		}
-		
+		logger.debug("Is the primary server: ["+isPrimaryServer+"]");
 		return isPrimaryServer;
 	}
 	
