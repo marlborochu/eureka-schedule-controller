@@ -6,6 +6,9 @@ The HA (High Availability) architecture of the control system is designed in A/S
 
 When there are multiple identical servers registered to the controller, the controller will call the API provided by the server in round-robin.
 
+![Capture](https://user-images.githubusercontent.com/24667449/174024104-977b8bd0-d91e-43b4-9420-26c9f6922793.PNG)
+
+
 ### Controller Server Configuration
 Crete an empty String Boot web application using Eclipse. And add the following settings to manve's pom.xml file.
 
