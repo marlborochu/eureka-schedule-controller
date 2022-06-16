@@ -2,6 +2,10 @@ package com.schedule.controller.eureka.utils;
 
 import java.net.URL;
 
+/**
+*
+* @author marlboro.chu@gmail.com
+*/
 public class ControllerUtils {
 	
 	private static ControllerUtils instance;

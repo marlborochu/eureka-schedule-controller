@@ -4,6 +4,10 @@ import java.util.Map;
 
 import com.google.gson.Gson;
 
+/**
+*
+* @author marlboro.chu@gmail.com
+*/
 public class JobInfo {
 
 	private String jobId;

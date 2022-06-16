@@ -11,6 +11,12 @@ import com.schedule.controller.eureka.models.SampleJobInfo;
 import com.schedule.controller.eureka.schedules.SampleScheduleManager;
 import com.schedule.controller.eureka.schedules.ScheduleManager;
 
+
+/**
+*
+* @author marlboro.chu@gmail.com
+*/
+
 @ConditionalOnProperty(name = Constant.KEY_SCHEDULE_CONTROLLER_SAMPLE_MANAGER, 
 	matchIfMissing = false, havingValue = "true")
 @Configuration

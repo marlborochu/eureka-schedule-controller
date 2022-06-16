@@ -2,6 +2,10 @@ package com.schedule.controller.eureka.models;
 
 import java.util.List;
 
+/**
+*
+* @author marlboro.chu@gmail.com
+*/
 public class SampleJobInfo {
 		
 	private List<JobInfo> jobs;

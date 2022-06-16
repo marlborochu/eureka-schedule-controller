@@ -12,7 +12,10 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler;
 import org.springframework.scheduling.config.ScheduledTaskRegistrar;
 import org.springframework.web.client.RestTemplate;
 
-
+/**
+*
+* @author marlboro.chu@gmail.com
+*/
 @Configuration
 @EnableScheduling
 @EnableAsync

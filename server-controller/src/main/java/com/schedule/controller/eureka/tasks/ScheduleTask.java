@@ -24,6 +24,10 @@ import com.schedule.controller.eureka.models.JobInfo;
 import com.schedule.controller.eureka.service.EurekaService;
 import com.schedule.controller.eureka.utils.ControllerUtils;
 
+/**
+*
+* @author marlboro.chu@gmail.com
+*/
 public class ScheduleTask implements Runnable {
 
 	private static final Logger logger = LoggerFactory.getLogger(ScheduleTask.class);

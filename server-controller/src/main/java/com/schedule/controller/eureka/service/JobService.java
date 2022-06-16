@@ -7,7 +7,10 @@ import org.springframework.stereotype.Service;
 
 import com.schedule.controller.eureka.models.JobInfo;
 
-
+/**
+*
+* @author marlboro.chu@gmail.com
+*/
 @Service
 public interface JobService {
 	
