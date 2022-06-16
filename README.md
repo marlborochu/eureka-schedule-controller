@@ -89,9 +89,8 @@ When more than two identical API Servers are started and both are registered wit
 
 <img width="847" alt="Capture" src="https://user-images.githubusercontent.com/24667449/173987342-f98a724d-e9e1-468e-8f60-d0cc9d555ae0.PNG">
 
-<sub>Controller calling by Round-Robin</sub>
+<sub>Call API Server by Round-Robin</sub>
 
-### Failover
+<img width="592" alt="Capture" src="https://user-images.githubusercontent.com/24667449/173987794-cf8028df-499d-42b0-968f-b3a623a117b2.PNG">
 
-<img width="466" alt="failover and failback with application ii" src="https://user-images.githubusercontent.com/24667449/172831173-7f3edfc8-ea36-4dee-8c0a-8d8002b1d41d.png">
 
